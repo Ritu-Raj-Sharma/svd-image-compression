@@ -26,3 +26,15 @@ for r in (5, 20, 100):
     plt.axis('off')
     plt.title('rank = ' +str(r))
     plt.show()
+
+#Singular value graph
+plt.figure(1)
+plt.semilogy(np.diag(S))
+plt.title('Singular Values')
+plt.show()
+
+#Cumulative sum graph
+plt.figure(2)
+plt.plot(np.cumsum(np.diag(S))/np.sum(np.diag(S)))
+plt.title('Singular Values: Cumulative Sum')
+plt.show()
