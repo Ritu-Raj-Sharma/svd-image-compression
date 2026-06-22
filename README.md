@@ -57,7 +57,6 @@ svd-image-compression/
 
 Note: the test image used (`demo.jpeg`) is excluded via `.gitignore` and is not included in this repo. To run the script, place your own image in the project folder and update the filename in `svd.py` accordingly.
 
-```
 
 This will display the original grayscale image, followed by reconstructions at rank 5, 20, and 100.
 
