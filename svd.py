@@ -9,6 +9,7 @@ X = np.mean(A, -1); #convert RGB to grayscale
 img = plt.imshow(X)
 img.set_cmap('gray')
 plt.axis('off')
+plt.title('Original image')
 plt.show()
 
 U, S, VT = np.linalg.svd(X,full_matrices=False)
@@ -23,5 +24,5 @@ for r in (5, 20, 100):
     img = plt.imshow(Xapprox)
     img.set_cmap('gray')
     plt.axis('off')
-    plt.title('r = ' +str(r))
+    plt.title('rank = ' +str(r))
     plt.show()
