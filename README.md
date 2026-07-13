@@ -133,7 +133,3 @@ This will display the original image, followed by reconstructions at rank 5, 20,
 - [ ] Build an interactive web demo (slider for `r`, live before/after)
 - [ ] Compare against JPEG (DCT-based) compression
 - [ ] Implement SVD from scratch (e.g. via power iteration) as an extension
-
-## License
-
-MIT
